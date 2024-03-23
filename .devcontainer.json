@@ -1,3 +1,10 @@
 {
-  "build": { "dockerfile": "Dockerfile" }
+  "image": "docker.io/python:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"],
+      "settings": { "workbench.colorTheme": "Solarized Light" }
+    }
+  },
+  "features": { "ghcr.io/devcontainers/features/github-cli:1": {} }
 }
