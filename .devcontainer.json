@@ -1,10 +1,9 @@
 {
-  "image": "docker.io/python:latest",
+  "image": "docker.io/openjdk:latest",
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python"],
-      "settings": { "workbench.colorTheme": "Solarized Light" }
+      "extensions": ["vscjava.vscode-java-pack"],
+      "settings": { "workbench.colorTheme": "Solarized Dark" }
     }
-  },
-  "features": { "ghcr.io/devcontainers/features/github-cli:1": {} }
+  }
 }
